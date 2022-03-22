@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gragh"
+    app:startDestination="@id/nearCoffesFragment">
+
+    <fragment
+        android:id="@+id/enterFragment"
+        android:name="com.example.coffeeapp.fragments.enter.EnterFragment"
+        android:label="fragment_enter"
+        tools:layout="@layout/fragment_enter" >
+        <action
+            android:id="@+id/action_enterFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_enterFragment_to_nearCoffesFragment"
+            app:destination="@id/nearCoffesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuCoffesFragment"
+        android:name="com.example.coffeeapp.fragments.menu.MenuCoffesFragment"
+        android:label="fragment_menu_coffes"
+        tools:layout="@layout/fragment_menu_coffes" >
+        <action
+            android:id="@+id/action_menuCoffesFragment_to_orderCoffesFragment"
+            app:destination="@id/orderCoffesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearCoffesFragment"
+        android:name="com.example.coffeeapp.fragments.nearcoffes.NearCoffesFragment"
+        android:label="fragment_near_coffes"
+        tools:layout="@layout/fragment_near_coffes" >
+        <action
+            android:id="@+id/action_nearCoffesFragment_to_yandexMapFragment"
+            app:destination="@id/yandexMapFragment" />
+        <action
+            android:id="@+id/action_nearCoffesFragment_to_menuCoffesFragment"
+            app:destination="@id/menuCoffesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderCoffesFragment"
+        android:name="com.example.coffeeapp.fragments.order.OrderCoffesFragment"
+        android:label="fragment_order_coffes"
+        tools:layout="@layout/fragment_order_coffes" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.coffeeapp.fragments.registration.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_enterFragment"
+            app:destination="@id/enterFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_nearCoffesFragment"
+            app:destination="@id/nearCoffesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yandexMapFragment"
+        android:name="com.example.coffeeapp.fragments.map.YandexMapFragment"
+        android:label="fragment_yandex_map"
+        tools:layout="@layout/fragment_yandex_map" >
+        <action
+            android:id="@+id/action_yandexMapFragment_to_nearCoffesFragment"
+            app:destination="@id/nearCoffesFragment" />
+        <action
+            android:id="@+id/action_yandexMapFragment_to_menuCoffesFragment"
+            app:destination="@id/menuCoffesFragment" />
+    </fragment>
+</navigation>

@@ -1,13 +1,14 @@
 package com.example.coffeeapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.coffeeapp.viewmodel.CoffeeViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    val PERMISSION_ID = 1011
     private lateinit var viewModel: CoffeeViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,4 +18,5 @@ class MainActivity : AppCompatActivity() {
 
         viewModel = ViewModelProvider(this)[CoffeeViewModel::class.java]
     }
+
 }

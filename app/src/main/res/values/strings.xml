@@ -9,4 +9,7 @@
     <string name="invisible_pass">*****</string>
     <string name="registration">Регистрация</string>
     <string name="enter">Войти</string>
+    <string name="on_map">На карте</string>
+    <string name="pay">Оплатить</string>
+    <string name="order_big_text">Время ожидания заказа 15 минут!\nСпасибо, что выбрали нас!</string>
 </resources>

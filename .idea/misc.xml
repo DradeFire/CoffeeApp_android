@@ -10,7 +10,14 @@
         <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.339" />
         <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/fragment_enter.xml" value="0.5" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/fragment_menu_coffes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/fragment_near_coffes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/fragment_order_coffes.xml" value="0.22" />
         <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/fragment_registration.xml" value="0.33" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/fragment_yandex_map.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/item_coffee_house.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/item_coffee_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projects/CoffeeApp_android/app/src/main/res/layout/item_coffee_order.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
